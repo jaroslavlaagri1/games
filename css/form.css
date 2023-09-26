@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #222222;
+}
+.form{
+    width: 70%;
+    background: #222222;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    margin: 50px auto;
+}
+.form-head{
+    height: 50px;
+    background: #65DAFF;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.btn-back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white ;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-weight: 700;
+}
+.btn-back:hover{
+    background: gray;
+}
+.btn-back:active{
+    background: black;
+    color: white;
+}
+.form-body{
+    padding: 30px;
+    color: white;
+}
+.fname, .sname{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+.input-wrapper{
+    margin: 30px 0;
+}
+.male-radio{
+    margin-right: 10px;
+}
+.female-radio{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.age{
+    margin-right: 10px;
+}
+.gender{
+    margin-bottom: 30px;
+}
+.comment{
+    width: 90%;
+    height: 200px;
+    background-color: #222222;
+}
+.submit{
+    background-color: #65DAFF ;
+    color: white;
+    width: 300px;
+    height: 75px;
+    font-size: 15px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
